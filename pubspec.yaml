@@ -1,0 +1,24 @@
+name: akowe
+description: A solutions challenge
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  introduction_screen: ^1.0.9
+  pin_code_text_field: ^1.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+  fonts:
+    - family: GTWalsheimPro
+      fonts:
+        - asset: fonts/GTWalsheimPro-Regular.ttf
